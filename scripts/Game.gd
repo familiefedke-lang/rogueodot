@@ -37,8 +37,6 @@ func _ready() -> void:
 	game_engine = GameEngine.new(animation_db, items_db, enemies_db)
 	game_engine.set_renderer(renderer)  # Enable visual feedback
 	game_engine.new_game()
-	game_engine = GameEngine.new(animation_db, items_db, enemies_db)
-	game_engine.new_game()
 
 	# ── Input handler ─────────────────────────────────────────────────────────
 	input_handler = InputHandler.new()

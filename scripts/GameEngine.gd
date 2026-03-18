@@ -14,6 +14,10 @@
 class_name GameEngine
 extends RefCounted
 
+const Fighter = preload("res://scripts/ecs/components/Fighter.gd")
+const SpriteComponent = preload("res://scripts/ecs/components/SpriteComponent.gd")
+const RangedAttackComponent = preload("res://scripts/ecs/components/RangedAttackComponent.gd")
+
 const MAX_MESSAGES: int = 200
 
 var animation_db: AnimationDB
