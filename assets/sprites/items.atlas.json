@@ -1,0 +1,8 @@
+{
+  "tileSize": 32,
+  "tilesPerRow": 3,
+  "items": {
+    "helmet": 0,
+    "body_armour": 1
+  }
+}

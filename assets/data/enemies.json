@@ -1,0 +1,28 @@
+{
+  "goblin": {
+	"name": "goblin",
+	"sprite": "goblin",
+	"ai": "basic",
+	"fighter": {
+	  "hp": 8,
+	  "power": 2
+	},
+	"scaling": {
+	  "hp_per_floor": 2,
+	  "power_per_floor": 1
+	}
+  },
+  "flower": {
+	"name": "flower",
+	"sprite": "flower",
+	"ai": "basic",
+	"fighter": {
+	  "hp": 20,
+	  "power": 1
+	},
+	"scaling": {
+	  "hp_per_floor": 5,
+	  "power_per_floor": 3
+	}
+  }
+}

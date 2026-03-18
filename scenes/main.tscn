@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d3ao57oq61lwg"]
+
+[ext_resource type="Script" uid="uid://biuuhj2do06j3" path="res://scripts/Game.gd" id="1"]
+[ext_resource type="Script" uid="uid://2f26w2fhcpi5" path="res://scripts/render/Renderer.gd" id="2"]
+
+[node name="Main" type="Node2D" unique_id=1200654730]
+script = ExtResource("1")
+
+[node name="Renderer" type="Node2D" parent="." unique_id=2025310855]
+script = ExtResource("2")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=166634595]
+position = Vector2(795, 473)

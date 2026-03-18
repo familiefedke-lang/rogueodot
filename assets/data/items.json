@@ -1,0 +1,20 @@
+{
+  "helmet": {
+    "name": "Helmet",
+    "sprite": "helmet",
+    "stackable": false,
+    "equip": {
+      "slot": "head",
+      "bonuses": { "armor": 1 }
+    }
+  },
+  "body_armour": {
+    "name": "Body Armour",
+    "sprite": "body_armour",
+    "stackable": false,
+    "equip": {
+      "slot": "body",
+      "bonuses": { "armor": 3 }
+    }
+  }
+}
